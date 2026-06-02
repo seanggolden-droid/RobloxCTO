@@ -106,6 +106,7 @@
             "MonsterMashServer": {
                 "$className": "Folder",
                 "MainServer": {
+                    "$className": "Script",
                     "$path": "src/ServerScriptService/MonsterMashServer/MainServer.lua"
                 },
                 "PlayerManager": {
