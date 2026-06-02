@@ -142,15 +142,19 @@
                 "MonsterMashClient": {
                     "$className": "Folder",
                     "MainClient": {
+                        "$className": "LocalScript",
                         "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/MainClient.lua"
                     },
                     "UIController": {
+                        "$className": "LocalScript",
                         "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/UIController.lua"
                     },
                     "ClickHandler": {
+                        "$className": "LocalScript",
                         "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/ClickHandler.lua"
                     },
                     "EffectManager": {
+                        "$className": "LocalScript",
                         "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/EffectManager.lua"
                     }
                 }
