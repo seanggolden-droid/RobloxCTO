@@ -125,6 +125,12 @@
                 },
                 "DailyRewardsSystem": {
                     "$path": "src/ServerScriptService/MonsterMashServer/DailyRewardsSystem.lua"
+                },
+                "WorldBuilder": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/WorldBuilder.lua"
+                },
+                "MainBuilder": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/MainBuilder.lua"
                 }
             }
         },
