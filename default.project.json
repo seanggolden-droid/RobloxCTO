@@ -18,7 +18,8 @@
                     },
                     "AdsManager": {
                         "$path": "src/ReplicatedStorage/MonsterMash/Modules/AdsManager.lua"
-                    }
+                    },
+                    "$className": "Folder"
                 },
                 "RemoteEvents": {
                     "CollectEnergy": {
@@ -92,9 +93,12 @@
                     },
                     "EnergyCollected": {
                         "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EnergyCollected"
-                    }
-                }
-            }
+                    },
+                    "$className": "Folder"
+                },
+                "$className": "Folder"
+            },
+            "$className": "ReplicatedStorage"
         },
         "ServerScriptService": {
             "MonsterMashServer": {
@@ -124,8 +128,10 @@
                 },
                 "MainBuilder": {
                     "$path": "src/ServerScriptService/MonsterMashServer/MainBuilder.lua"
-                }
-            }
+                },
+                "$className": "Folder"
+            },
+            "$className": "ServerScriptService"
         },
         "StarterPlayer": {
             "StarterPlayerScripts": {
@@ -141,9 +147,13 @@
                     },
                     "EffectManager": {
                         "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/EffectManager.client.lua"
-                    }
-                }
-            }
+                    },
+                    "$className": "Folder"
+                },
+                "$className": "StarterPlayerScripts"
+            },
+            "$className": "StarterPlayer"
         }
-    }
+    },
+    "$className": "DataModel"
 }
