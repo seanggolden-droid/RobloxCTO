@@ -1,6 +1,6 @@
 --[[ MainBuilder: Entry point that requires WorldBuilder and runs it when the game starts ]]
 
-local WorldBuilder = require(script:WaitForChild("WorldBuilder"))
+local WorldBuilder = require(script.Parent:WaitForChild("WorldBuilder"))
 
 local MainBuilder = {}
 
