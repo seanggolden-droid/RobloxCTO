@@ -109,28 +109,36 @@
                     "$path": "src/ServerScriptService/MonsterMashServer/MainServer.lua"
                 },
                 "PlayerManager": {
-                    "$path": "src/ServerScriptService/MonsterMashServer/PlayerManager.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/PlayerManager.lua",
+                    "$className": "ModuleScript"
                 },
                 "MonsterManager": {
-                    "$path": "src/ServerScriptService/MonsterMashServer/MonsterManager.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/MonsterManager.lua",
+                    "$className": "ModuleScript"
                 },
                 "BattleSystem": {
-                    "$path": "src/ServerScriptService/MonsterMashServer/BattleSystem.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/BattleSystem.lua",
+                    "$className": "ModuleScript"
                 },
                 "WorldManager": {
-                    "$path": "src/ServerScriptService/MonsterMashServer/WorldManager.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/WorldManager.lua",
+                    "$className": "ModuleScript"
                 },
                 "MarketplaceHandler": {
-                    "$path": "src/ServerScriptService/MonsterMashServer/MarketplaceHandler.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/MarketplaceHandler.lua",
+                    "$className": "ModuleScript"
                 },
                 "DailyRewardsSystem": {
-                    "$path": "src/ServerScriptService/MonsterMashServer/DailyRewardsSystem.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/DailyRewardsSystem.lua",
+                    "$className": "ModuleScript"
                 },
                 "WorldBuilder": {
-                    "$path": "src/ServerScriptService/MonsterMashServer/WorldBuilder.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/WorldBuilder.lua",
+                    "$className": "ModuleScript"
                 },
                 "MainBuilder": {
-                    "$path": "src/ServerScriptService/MonsterMashServer/MainBuilder.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/MainBuilder.lua",
+                    "$className": "ModuleScript"
                 }
             }
         },
