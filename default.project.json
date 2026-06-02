@@ -1,13 +1,9 @@
 {
     "name": "monster-mash-simulator",
     "tree": {
-        "$className": "DataModel",
         "ReplicatedStorage": {
-            "$className": "ReplicatedStorage",
             "MonsterMash": {
-                "$className": "Folder",
                 "Modules": {
-                    "$className": "Folder",
                     "Constants": {
                         "$path": "src/ReplicatedStorage/MonsterMash/Modules/Constants.lua"
                     },
@@ -25,7 +21,6 @@
                     }
                 },
                 "RemoteEvents": {
-                    "$className": "Folder",
                     "CollectEnergy": {
                         "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/CollectEnergy"
                     },
@@ -102,12 +97,9 @@
             }
         },
         "ServerScriptService": {
-            "$className": "ServerScriptService",
             "MonsterMashServer": {
-                "$className": "Folder",
                 "MainServer": {
-                    "$className": "Script",
-                    "$path": "src/ServerScriptService/MonsterMashServer/MainServer.lua"
+                    "$path": "src/ServerScriptService/MonsterMashServer/MainServer.server.lua"
                 },
                 "PlayerManager": {
                     "$path": "src/ServerScriptService/MonsterMashServer/PlayerManager.lua"
@@ -136,26 +128,19 @@
             }
         },
         "StarterPlayer": {
-            "$className": "StarterPlayer",
             "StarterPlayerScripts": {
-                "$className": "StarterPlayerScripts",
                 "MonsterMashClient": {
-                    "$className": "Folder",
                     "MainClient": {
-                        "$className": "LocalScript",
-                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/MainClient.lua"
+                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/MainClient.client.lua"
                     },
                     "UIController": {
-                        "$className": "LocalScript",
-                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/UIController.lua"
+                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/UIController.client.lua"
                     },
                     "ClickHandler": {
-                        "$className": "LocalScript",
-                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/ClickHandler.lua"
+                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/ClickHandler.client.lua"
                     },
                     "EffectManager": {
-                        "$className": "LocalScript",
-                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/EffectManager.lua"
+                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/EffectManager.client.lua"
                     }
                 }
             }
