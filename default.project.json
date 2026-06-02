@@ -1,0 +1,177 @@
+{
+	"name": "monster-mash-simulator",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"MonsterMash": {
+				"$className": "Folder",
+				"Modules": {
+					"$className": "Folder",
+					"Constants": {
+						"$path": "src/ReplicatedStorage/MonsterMash/Modules/Constants.lua"
+					},
+					"RarityModule": {
+						"$path": "src/ReplicatedStorage/MonsterMash/Modules/RarityModule.lua"
+					},
+					"StatCalculator": {
+						"$path": "src/ReplicatedStorage/MonsterMash/Modules/StatCalculator.lua"
+					},
+					"Types": {
+						"$path": "src/ReplicatedStorage/MonsterMash/Modules/Types.lua"
+					},
+					"AdsManager": {
+						"$path": "src/ReplicatedStorage/MonsterMash/Modules/AdsManager.lua"
+					}
+				},
+				"RemoteEvents": {
+					"$className": "Folder",
+					"CollectEnergy": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/CollectEnergy.lua"
+					},
+					"HatchEgg": {
+						"$className": "RemoteFunction",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/HatchEgg.lua"
+					},
+					"EquipMonster": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EquipMonster.lua"
+					},
+					"EvolveMonster": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EvolveMonster.lua"
+					},
+					"StartBattle": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/StartBattle.lua"
+					},
+					"MonsterHatched": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/MonsterHatched.lua"
+					},
+					"EvolutionComplete": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EvolutionComplete.lua"
+					},
+					"UpdateHUD": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/UpdateHUD.lua"
+					},
+					"BattleUpdate": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BattleUpdate.lua"
+					},
+					"BattleComplete": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BattleComplete.lua"
+					},
+					"ZoneUnlocked": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/ZoneUnlocked.lua"
+					},
+					"PlayerAttack": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PlayerAttack.lua"
+					},
+					"TeleportToZone": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/TeleportToZone.lua"
+					},
+					"UnlockZone": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/UnlockZone.lua"
+					},
+					"Rebirth": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/Rebirth.lua"
+					},
+					"ClaimDailyReward": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/ClaimDailyReward.lua"
+					},
+					"RequestInventory": {
+						"$className": "RemoteFunction",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/RequestInventory.lua"
+					},
+					"SendInventory": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/SendInventory.lua"
+					},
+					"DailyRewardResult": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/DailyRewardResult.lua"
+					},
+					"PurchaseGamePass": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PurchaseGamePass.lua"
+					},
+					"GamePassGranted": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/GamePassGranted.lua"
+					},
+					"BoostActivated": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BoostActivated.lua"
+					},
+					"PremiumEggGranted": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PremiumEggGranted.lua"
+					},
+					"EnergyCollected": {
+						"$className": "RemoteEvent",
+						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EnergyCollected.lua"
+					}
+				}
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"MonsterMashServer": {
+				"$className": "Folder",
+				"MainServer": {
+					"$path": "src/ServerScriptService/MonsterMashServer/MainServer.lua"
+				},
+				"PlayerManager": {
+					"$path": "src/ServerScriptService/MonsterMashServer/PlayerManager.lua"
+				},
+				"MonsterManager": {
+					"$path": "src/ServerScriptService/MonsterMashServer/MonsterManager.lua"
+				},
+				"BattleSystem": {
+					"$path": "src/ServerScriptService/MonsterMashServer/BattleSystem.lua"
+				},
+				"WorldManager": {
+					"$path": "src/ServerScriptService/MonsterMashServer/WorldManager.lua"
+				},
+				"MarketplaceHandler": {
+					"$path": "src/ServerScriptService/MonsterMashServer/MarketplaceHandler.lua"
+				},
+				"DailyRewardsSystem": {
+					"$path": "src/ServerScriptService/MonsterMashServer/DailyRewardsSystem.lua"
+				}
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"MonsterMashClient": {
+					"$className": "Folder",
+					"MainClient": {
+						"$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/MainClient.lua"
+					},
+					"UIController": {
+						"$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/UIController.lua"
+					},
+					"ClickHandler": {
+						"$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/ClickHandler.lua"
+					},
+					"EffectManager": {
+						"$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/EffectManager.lua"
+					}
+				}
+			}
+		}
+	}
+}
