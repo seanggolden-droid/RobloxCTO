@@ -14,9 +14,9 @@ local Types = require(ReplicatedStorage:WaitForChild("MonsterMash"):WaitForChild
 local StatCalculator = require(ReplicatedStorage:WaitForChild("MonsterMash"):WaitForChild("Modules"):WaitForChild("StatCalculator"))
 
 -- Load client controllers
-local UIController = require(script:WaitForChild("UIController"))
-local ClickHandler = require(script:WaitForChild("ClickHandler"))
-local EffectManager = require(script:WaitForChild("EffectManager"))
+local UIController = require(script.Parent:WaitForChild("UIController"))
+local ClickHandler = require(script.Parent:WaitForChild("ClickHandler"))
+local EffectManager = require(script.Parent:WaitForChild("EffectManager"))
 
 -- Get remote events
 local function GetRemoteEvent(name)

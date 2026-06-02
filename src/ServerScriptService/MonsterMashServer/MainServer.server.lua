@@ -13,13 +13,13 @@ local RarityModule = require(ReplicatedStorage:WaitForChild("MonsterMash"):WaitF
 local AdsManager = require(ReplicatedStorage:WaitForChild("MonsterMash"):WaitForChild("Modules"):WaitForChild("AdsManager"))
 
 -- Load server systems
-local PlayerManager = require(script:WaitForChild("PlayerManager"))
-local MonsterManager = require(script:WaitForChild("MonsterManager"))
-local BattleSystem = require(script:WaitForChild("BattleSystem"))
-local WorldManager = require(script:WaitForChild("WorldManager"))
-local MarketplaceHandler = require(script:WaitForChild("MarketplaceHandler"))
-local DailyRewardsSystem = require(script:WaitForChild("DailyRewardsSystem"))
-local MainBuilder = require(script:WaitForChild("MainBuilder"))
+local PlayerManager = require(script.Parent:WaitForChild("PlayerManager"))
+local MonsterManager = require(script.Parent:WaitForChild("MonsterManager"))
+local BattleSystem = require(script.Parent:WaitForChild("BattleSystem"))
+local WorldManager = require(script.Parent:WaitForChild("WorldManager"))
+local MarketplaceHandler = require(script.Parent:WaitForChild("MarketplaceHandler"))
+local DailyRewardsSystem = require(script.Parent:WaitForChild("DailyRewardsSystem"))
+local MainBuilder = require(script.Parent:WaitForChild("MainBuilder"))
 
 -- Helper to find remote events
 local function GetRemoteEvent(name)
