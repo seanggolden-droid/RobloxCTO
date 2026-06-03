@@ -19,7 +19,7 @@ local BattleSystem = require(script.Parent:WaitForChild("BattleSystem"))
 local WorldManager = require(script.Parent:WaitForChild("WorldManager"))
 local MarketplaceHandler = require(script.Parent:WaitForChild("MarketplaceHandler"))
 local DailyRewardsSystem = require(script.Parent:WaitForChild("DailyRewardsSystem"))
-local MainBuilder = require(script.Parent:WaitForChild("MainBuilder"))
+local WorldBuilder = require(script.Parent:WaitForChild("WorldBuilder"))
 
 -- Helper to find remote events
 local function GetRemoteEvent(name)
@@ -288,7 +288,7 @@ end
 
 --[[ Build the 3D world on server start via MainBuilder ]]
 task.delay(0.5, function()
-    MainBuilder.Run()
+    WorldBuilder.BuildAll()
 end)
 
 print("[MonsterMashServer] All systems initialized successfully.")

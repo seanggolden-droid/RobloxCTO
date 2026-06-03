@@ -1,159 +1,156 @@
 {
-	"name": "monster-mash-simulator",
-	"tree": {
-		"$className": "DataModel",
-		"ReplicatedStorage": {
-			"$className": "ReplicatedStorage",
-			"MonsterMash": {
-				"$className": "Folder",
-				"Modules": {
-					"$className": "Folder",
-					"Constants": {
-						"$path": "src/ReplicatedStorage/MonsterMash/Modules/Constants.lua"
-					},
-					"RarityModule": {
-						"$path": "src/ReplicatedStorage/MonsterMash/Modules/RarityModule.lua"
-					},
-					"StatCalculator": {
-						"$path": "src/ReplicatedStorage/MonsterMash/Modules/StatCalculator.lua"
-					},
-					"Types": {
-						"$path": "src/ReplicatedStorage/MonsterMash/Modules/Types.lua"
-					},
-					"AdsManager": {
-						"$path": "src/ReplicatedStorage/MonsterMash/Modules/AdsManager.lua"
-					}
-				},
-				"RemoteEvents": {
-					"$className": "Folder",
-					"CollectEnergy": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/CollectEnergy"
-					},
-					"HatchEgg": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/HatchEgg"
-					},
-					"EquipMonster": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EquipMonster"
-					},
-					"EvolveMonster": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EvolveMonster"
-					},
-					"StartBattle": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/StartBattle"
-					},
-					"MonsterHatched": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/MonsterHatched"
-					},
-					"EvolutionComplete": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EvolutionComplete"
-					},
-					"UpdateHUD": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/UpdateHUD"
-					},
-					"BattleUpdate": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BattleUpdate"
-					},
-					"BattleComplete": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BattleComplete"
-					},
-					"ZoneUnlocked": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/ZoneUnlocked"
-					},
-					"PlayerAttack": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PlayerAttack"
-					},
-					"TeleportToZone": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/TeleportToZone"
-					},
-					"UnlockZone": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/UnlockZone"
-					},
-					"Rebirth": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/Rebirth"
-					},
-					"ClaimDailyReward": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/ClaimDailyReward"
-					},
-					"RequestInventory": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/RequestInventory"
-					},
-					"SendInventory": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/SendInventory"
-					},
-					"DailyRewardResult": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/DailyRewardResult"
-					},
-					"PurchaseGamePass": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PurchaseGamePass"
-					},
-					"GamePassGranted": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/GamePassGranted"
-					},
-					"BoostActivated": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BoostActivated"
-					},
-					"PremiumEggGranted": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PremiumEggGranted"
-					},
-					"EnergyCollected": {
-						"$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EnergyCollected"
-					}
-				}
-			}
-		},
-		"ServerScriptService": {
-			"$className": "ServerScriptService",
-			"MonsterMashServer": {
-				"$className": "Folder",
-				"MainServer": {
-					"$path": "src/ServerScriptService/MonsterMashServer/MainServer.server.lua"
-				},
-				"PlayerManager": {
-					"$path": "src/ServerScriptService/MonsterMashServer/PlayerManager.lua"
-				},
-				"MonsterManager": {
-					"$path": "src/ServerScriptService/MonsterMashServer/MonsterManager.lua"
-				},
-				"BattleSystem": {
-					"$path": "src/ServerScriptService/MonsterMashServer/BattleSystem.lua"
-				},
-				"WorldManager": {
-					"$path": "src/ServerScriptService/MonsterMashServer/WorldManager.lua"
-				},
-				"MarketplaceHandler": {
-					"$path": "src/ServerScriptService/MonsterMashServer/MarketplaceHandler.lua"
-				},
-				"DailyRewardsSystem": {
-					"$path": "src/ServerScriptService/MonsterMashServer/DailyRewardsSystem.lua"
-				},
-				"WorldBuilder": {
-					"$path": "src/ServerScriptService/MonsterMashServer/WorldBuilder.lua"
-				},
-				"MainBuilder": {
-					"$path": "src/ServerScriptService/MonsterMashServer/MainBuilder.lua"
-				}
-			}
-		},
-		"StarterPlayer": {
-			"$className": "StarterPlayer",
-			"StarterPlayerScripts": {
-				"$className": "StarterPlayerScripts",
-				"MonsterMashClient": {
-					"$className": "Folder",
-					"MainClient": {
-						"$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/MainClient.client.lua"
-					},
-					"UIController": {
-						"$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/UIController.client.lua"
-					},
-					"ClickHandler": {
-						"$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/ClickHandler.client.lua"
-					},
-					"EffectManager": {
-						"$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/EffectManager.client.lua"
-					}
-				}
-			}
-		}
-	}
+    "name": "monster-mash-simulator",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "MonsterMash": {
+                "$className": "Folder",
+                "Modules": {
+                    "$className": "Folder",
+                    "Constants": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/Modules/Constants.lua"
+                    },
+                    "RarityModule": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/Modules/RarityModule.lua"
+                    },
+                    "StatCalculator": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/Modules/StatCalculator.lua"
+                    },
+                    "Types": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/Modules/Types.lua"
+                    },
+                    "AdsManager": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/Modules/AdsManager.lua"
+                    }
+                },
+                "RemoteEvents": {
+                    "$className": "Folder",
+                    "CollectEnergy": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/CollectEnergy"
+                    },
+                    "HatchEgg": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/HatchEgg"
+                    },
+                    "EquipMonster": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EquipMonster"
+                    },
+                    "EvolveMonster": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EvolveMonster"
+                    },
+                    "StartBattle": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/StartBattle"
+                    },
+                    "MonsterHatched": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/MonsterHatched"
+                    },
+                    "EvolutionComplete": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EvolutionComplete"
+                    },
+                    "UpdateHUD": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/UpdateHUD"
+                    },
+                    "BattleUpdate": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BattleUpdate"
+                    },
+                    "BattleComplete": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BattleComplete"
+                    },
+                    "ZoneUnlocked": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/ZoneUnlocked"
+                    },
+                    "PlayerAttack": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PlayerAttack"
+                    },
+                    "TeleportToZone": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/TeleportToZone"
+                    },
+                    "UnlockZone": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/UnlockZone"
+                    },
+                    "Rebirth": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/Rebirth"
+                    },
+                    "ClaimDailyReward": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/ClaimDailyReward"
+                    },
+                    "RequestInventory": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/RequestInventory"
+                    },
+                    "SendInventory": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/SendInventory"
+                    },
+                    "DailyRewardResult": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/DailyRewardResult"
+                    },
+                    "PurchaseGamePass": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PurchaseGamePass"
+                    },
+                    "GamePassGranted": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/GamePassGranted"
+                    },
+                    "BoostActivated": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/BoostActivated"
+                    },
+                    "PremiumEggGranted": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/PremiumEggGranted"
+                    },
+                    "EnergyCollected": {
+                        "$path": "src/ReplicatedStorage/MonsterMash/RemoteEvents/EnergyCollected"
+                    }
+                }
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "MonsterMashServer": {
+                "$className": "Folder",
+                "MainServer": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/MainServer.server.lua"
+                },
+                "PlayerManager": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/PlayerManager.lua"
+                },
+                "MonsterManager": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/MonsterManager.lua"
+                },
+                "BattleSystem": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/BattleSystem.lua"
+                },
+                "WorldManager": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/WorldManager.lua"
+                },
+                "MarketplaceHandler": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/MarketplaceHandler.lua"
+                },
+                "DailyRewardsSystem": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/DailyRewardsSystem.lua"
+                },
+                "WorldBuilder": {
+                    "$path": "src/ServerScriptService/MonsterMashServer/WorldBuilder.lua"
+                }
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "MonsterMashClient": {
+                    "$className": "Folder",
+                    "MainClient": {
+                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/MainClient.client.lua"
+                    },
+                    "UIController": {
+                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/UIController.client.lua"
+                    },
+                    "ClickHandler": {
+                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/ClickHandler.client.lua"
+                    },
+                    "EffectManager": {
+                        "$path": "src/StarterPlayer/StarterPlayerScripts/MonsterMashClient/EffectManager.client.lua"
+                    }
+                }
+            }
+        }
+    }
 }
